@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registrationFormStyle.css">
+</head>
+<body>
+<div class="registration">
+    <div class="person_info">
+        <p class="info">
+            <span class="info_text"> Name: </span>
+            <input type="text" required placeholder="Your name">
+        </p>
+        <p class="info">
+            <span class="info_text"> Surname: </span>
+            <input type="text" required placeholder="Your surname">
+        </p>
+        <p class="info">
+            <span class="info_text"> Birthday </span>
+            <input type="date" name="Birthday">
+        </p>
+        <p class="info">
+            <span class="info_text"> E-mail: </span>
+            <input type="email" required placeholder="aaa@aaa.aaa">
+        </p>
+    </div>
+    <div class="password_info">
+        <p class="info">
+            <span class="info_text"> Password: </span>
+            <input type="password" required placeholder="1234567890">
+        </p>
+        <p class="info">
+            <span class="info_text"> Confirm password: </span>
+            <input type="password" placeholder="1234567890">
+        </p>
+        <p class="functions_password">
+            <input type="checkbox" name="remember_password">
+            <span class="functions_password_text"> Remember password </span>
+            <br>
+            <input type="checkbox" name="show_password">
+            <span class="functions_password_text"> Show password </span>
+        </p>
+    </div>
+    <button class="registration_ready"> Ready! </button>
+</div>
+</body>
+</html>

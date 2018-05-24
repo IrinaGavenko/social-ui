@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="mainStyles.css">
+    <link rel="stylesheet" href="personProfileStyle.css">
+</head>
+<body>
+<header class="header">
+    <img src="#" alt="CoolPicture" class="header_logo">
+    <div class="header_search">
+        <input type="search" name="search"> <span> Search </span>
+    </div>
+    <a href="personProfile.html" class="header_picture">
+        <img src="#" alt="MyProfile">
+    </a>
+    <a href="#" class="header_exit">Exit</a>
+</header>
+
+<div class="container">
+    <nav class="nav">
+        <ul>
+            <li><a href="friendsType.html">Friends</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="mainPage.html">News</a></li>
+        </ul>
+    </nav>
+
+    <input type="file" style="padding-left: 20px; padding-top: 20px;" name="avatar" accept="image/*">
+
+    <main class="main">
+        <div class="main_data_info">
+            <p class="main_data">
+                <span class="main_info_text"> Name </span>
+                <span class="main_info_input">
+                    <input type="text" name="My name" placeholder="#YourName">
+                </span>
+            </p>
+            <p class="main_data">
+                <span class="main_info_text"> Surname </span>
+                <span class="main_info_input">
+                    <input type="text" name="My surname" placeholder="#Your surname">
+                </span>
+            </p>
+            <p class="main_data">
+                <span class="main_info_text"> Birthday </span>
+                <span class="main_info_input">
+                    <input type="date" name="Birthday">
+                </span>
+            </p>
+            <p class="main_data">
+                <span class="main_info_text"> Email</span>
+                <span class="main_info_input">
+                    <input type="email" class="main_info_input" placeholder="#aaa@aaa.aaa">
+                </span>
+            </p>
+        </div>
+        <p class="change_password">
+            <span class="main_info_text"> Change Password </span>
+            <span class="main_info_input">
+                <input type="password" class="main_info_input" placeholder="#1234567890">
+            </span> <br>
+            <div class="show_password">
+                <input type="checkbox" name="main_show_password_input">
+                <span class="main_show_password_text"> Show the password </span>
+            </div>
+        </p>
+    </main>
+
+    <p class="main_info">
+        <span class="main_info_info"> Information about me </span>
+        <textarea name="InfoAboutMe" cols="55" rows="8" placeholder="#Some interesting facts about me!"></textarea>
+    </p>
+</div>
+
+<footer class="footer">
+    <div class="footer_tech_email"> Technical supporting: <br> aaa@aaa.aaa </div>
+
+    <div class="footer_tech_text"> Have a good day! </div>
+</footer>
+
+</body>
+</body>
+</html>

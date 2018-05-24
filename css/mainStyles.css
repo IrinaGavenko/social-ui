@@ -1,0 +1,98 @@
+/*
+header
+container
+    nav
+    main
+        person
+footer
+ */
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* описание header*/
+.header {
+    height: 70px;
+    background: antiquewhite;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 15%;
+    padding-top: 23px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+.header_search {
+    width: 95%;
+    text-align: right;
+}
+.header_picture {
+    width: 11%;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+.header_exit {
+    width: 6%;
+    text-align: left;
+}
+
+/* описание центральных блоков*/
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* описание navigation*/
+ul {
+     list-style-type: none;
+ }
+ul ul {
+    padding-left: 15px;
+}
+.nav {
+    padding-top: 30px;
+    text-align: center;
+    background: aquamarine;
+}
+/* описание footer*/
+.footer {
+    background: antiquewhite;
+    height: 50px;
+    display: flex;
+}
+
+.footer_tech_email {
+    width: 15%;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+
+.footer_tech_text {
+    font-size: 24px;
+    margin: auto;
+    padding-right: 150px;
+}
